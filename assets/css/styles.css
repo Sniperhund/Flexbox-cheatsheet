@@ -120,16 +120,35 @@ input {
     }
 
     .flex-baseline {
+        display: flex;
         align-items: baseline;
     }
 
-    .baseline-special {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .flex-baseline article:nth-child(1) {
+        height: 325px;
+        width: 306px;
+    }
+
+    .flex-baseline article:nth-child(2) {
+        height: 250px;
+        width: 306px;
+    }
+
+    .flex-baseline article:nth-child(2) p {
+        margin-top: 50px;
+    }
+
+    .flex-baseline article:nth-child(3) {
+        height: 250px;
+        width: 306px;
+    }
+
+    p {
+        text-align: center;
+        color: white;
+        font-weight: bold;
         font-size: 35px;
         font-family: 'Helvetica Neue', sans-serif;
-        color: white;
     }
 }
 
