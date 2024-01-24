@@ -9,151 +9,163 @@
     </head>
     <body>
         <h1>Jeg har ikke været der den her dag pga. læge så hvis jeg har misforstået opgaven så skal jeg nok lave den igen :)</h1>
-        <div class="justify">
-            <h2>Start</h2>
-            <div class="flex flex-start">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>End</h2>
-            <div class="flex flex-end">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Center</h2>
-            <div class="flex flex-center">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Space between</h2>
-            <div class="flex flex-space-between no-side-padding">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Space around</h2>
-            <div class="flex flex-space-around">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Space evenly</h2>
-            <div class="flex flex-space-evenly">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-        </div>
 
-        <!-- ALIGN -->
-        <div class="align">
-            <h2>Start</h2>
-            <div class="flex flex-start">
-                <div class="bluebox bluebox1"></div>
-                <div class="bluebox bluebox2"></div>
-                <div class="bluebox bluebox3"></div>
-            </div>
-            <h2>End</h2>
-            <div class="flex flex-end">
-                <div class="bluebox bluebox1"></div>
-                <div class="bluebox bluebox2"></div>
-                <div class="bluebox bluebox3"></div>
-            </div>
-            <h2>Center</h2>
-            <div class="flex flex-center">
-                <div class="bluebox bluebox1"></div>
-                <div class="bluebox bluebox2"></div>
-                <div class="bluebox bluebox3"></div>
-            </div>
-            <h2>Stretch</h2>
-            <div class="flex flex-stretch no-side-padding">
-                <div class="bluebox bluebox1"></div>
-                <div class="bluebox bluebox2"></div>
-                <div class="bluebox bluebox3"></div>
-            </div>
-            <h2>Baseline - Jeg har ingen ide om hvordan jeg får den til at matche...</h2>
-            <div class="flex flex-baseline">
-                <div class="bluebox bluebox1 baseline-special">
-                    Tekst
+        <p>Skal den vises bedre?: </p>
+        <input type="checkbox" id="myCheck" checked onclick="myFunction()">
+
+        <div id="view" class="better-view">
+            <div class="justify">
+                <h2>Start</h2>
+                <div class="flex flex-start">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
                 </div>
-                <div class="bluebox bluebox2 baseline-special">
-                    Tekst
+                <h2>End</h2>
+                <div class="flex flex-end">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
                 </div>
-                <div class="bluebox bluebox3 baseline-special">
-                    Tekst
+                <h2>Center</h2>
+                <div class="flex flex-center">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <h2>Space between</h2>
+                <div class="flex flex-space-between no-side-padding">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <h2>Space around</h2>
+                <div class="flex flex-space-around">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <h2>Space evenly</h2>
+                <div class="flex flex-space-evenly">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
                 </div>
             </div>
-        </div>
 
-        <!-- Flex Direction -->
-        <div class="flex-direction">
-            <h2>Row</h2>
-            <div class="flex flex-row">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
+            <!-- ALIGN -->
+            <div class="align">
+                <h2>Start</h2>
+                <div class="flex flex-start">
+                    <div class="bluebox bluebox1"></div>
+                    <div class="bluebox bluebox2"></div>
+                    <div class="bluebox bluebox3"></div>
+                </div>
+                <h2>End</h2>
+                <div class="flex flex-end">
+                    <div class="bluebox bluebox1"></div>
+                    <div class="bluebox bluebox2"></div>
+                    <div class="bluebox bluebox3"></div>
+                </div>
+                <h2>Center</h2>
+                <div class="flex flex-center">
+                    <div class="bluebox bluebox1"></div>
+                    <div class="bluebox bluebox2"></div>
+                    <div class="bluebox bluebox3"></div>
+                </div>
+                <h2>Stretch</h2>
+                <div class="flex flex-stretch no-side-padding">
+                    <div class="bluebox bluebox1"></div>
+                    <div class="bluebox bluebox2"></div>
+                    <div class="bluebox bluebox3"></div>
+                </div>
+                <h2>Baseline - Jeg har ingen ide om hvordan jeg får den til at matche...</h2>
+                <div class="flex flex-baseline">
+                    <div class="bluebox bluebox1 baseline-special">
+                        Tekst
+                    </div>
+                    <div class="bluebox bluebox2 baseline-special">
+                        Tekst
+                    </div>
+                    <div class="bluebox bluebox3 baseline-special">
+                        Tekst
+                    </div>
+                </div>
             </div>
-            <h2>Row reverse</h2>
-            <div class="flex flex-row-reverse">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Column</h2>
-            <div class="flex flex-column">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-            <h2>Column reverse</h2>
-            <div class="flex flex-column-reverse">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-            </div>
-        </div>
 
-        <!-- Wrap -->
-        <div class="flex-wrap">
-            <h2>No wrap</h2>
-            <div class="flex flex-no-wrap">
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
-                <div class="bluebox"></div>
+            <!-- Flex Direction -->
+            <div class="flex-direction">
+                <h2>Row</h2>
+                <div class="flex flex-row">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <h2>Row reverse</h2>
+                <div class="flex flex-row-reverse">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <div class="better-view">
+                    <div>
+                        <h2>Column</h2>
+                        <div class="flex flex-column">
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Column reverse</h2>
+                        <div class="flex flex-column-reverse">
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                            <div class="bluebox"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <h2>Wrap</h2>
-            <div class="flex flex-wrap">
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-            </div>
-            <h2>Wrap Reverse</h2>
-            <div class="flex flex-wrap flex-wrap-reverse">
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
-                <div class="bluebox large-bluebox"></div>
+
+            <!-- Wrap -->
+            <div class="flex-wrap">
+                <h2>No wrap</h2>
+                <div class="flex flex-no-wrap">
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                    <div class="bluebox"></div>
+                </div>
+                <h2>Wrap</h2>
+                <div class="flex flex-wrap">
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                </div>
+                <h2>Wrap Reverse</h2>
+                <div class="flex flex-wrap flex-wrap-reverse">
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                    <div class="bluebox large-bluebox"></div>
+                </div>
             </div>
         </div>
     </body>
