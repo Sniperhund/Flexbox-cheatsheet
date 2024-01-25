@@ -1,5 +1,4 @@
 function myFunction() {
-    // Get the checkbox
     var checkBox = document.getElementById("myCheck");
     // Get the output text
     var text = document.getElementById("view");
